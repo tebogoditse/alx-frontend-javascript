@@ -1,6 +1,6 @@
 import ClassRoom from './0-classroom';
 
-function InitializeRooms() {
+const InitializeRooms = () => {
   return [
     new ClassRoom(19),
     new ClassRoom(20),
