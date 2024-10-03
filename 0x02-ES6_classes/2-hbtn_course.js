@@ -8,8 +8,7 @@ class HolbertonCourse {
   set name(name) {
     if (typeof name === 'string') {
       this._name = name;
-    }
-    else {
+    } else {
       throw new TypeError('Name must be a string');
     }
   }
@@ -21,8 +20,7 @@ class HolbertonCourse {
   set length(length) {
     if (typeof length === 'number') {
       this._length = length;
-    }
-    else {
+    } else {
       throw new TypeError('Length must be a number');
     }
   }
