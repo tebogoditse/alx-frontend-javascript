@@ -6,6 +6,6 @@ const InitializeRooms = () => {
     new ClassRoom(20),
     new ClassRoom(34),
   ];
-}
+};
 
 export default InitializeRooms;
