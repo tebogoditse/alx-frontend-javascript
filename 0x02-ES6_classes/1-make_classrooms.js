@@ -4,7 +4,7 @@ function InitializeRooms() {
   return [
     new ClassRoom(19),
     new ClassRoom(20),
-    new ClassRoom(34)
+    new ClassRoom(34),
   ];
 }
 
